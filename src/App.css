@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  color: rgb(12, 11, 11);
+  background-color: darkslateblue;
+  font-family: Lato, sans-serif;
+  margin-top: 40px;
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  font-family: Roboto, sans-serif;
+  text-align: center;
+  margin: 20px 0;
+}
+.aplicacion-tareas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-contenedor {
+  width: 100%;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.logo-frontend {
+  width: 400px;
+  height: 50px;
+}
+
+/*este es de la lista de tareas*/
+.tareas-lista-principal {
+  width: 600px;
+  min-height: 500px;
+  background-color: rgb(53, 51, 47);
+  padding: 25px;
+  margin: 10px;
+  justify-content: center;
+  border-radius: 26px;
+}
